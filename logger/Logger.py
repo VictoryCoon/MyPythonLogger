@@ -21,7 +21,7 @@ def setup_logging():
     log_file_path = os.path.join(log_dir,f'{name}_{now_date}.log')
 
     # Object
-    logger = logging.getLogger("VICTORY-RAG")
+    logger = logging.getLogger(name)
     console = logging.StreamHandler()
     output = RotatingFileHandler(
         log_file_path,
