@@ -2,9 +2,9 @@
 
 According to mentioned path below.
 
-Project
-├ .env
-└ main.py
-  └ logger
-    ├ __init__.py
-    └ Logger.py
+Project\n
+├ .env\n
+└ main.py\n
+  └ logger\n
+    ├ __init__.py\n
+    └ Logger.py\n
